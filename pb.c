@@ -10,17 +10,17 @@ static int my_sort_func(const void* p1, const void* p2)
 {
  	int v1 = *((int *) p1);
  	int v2 = *((int *) p2);
- 	
+
 	if (v1 < v2)
  	{
  		return -1;
  	}
- 	
+
 	else if (v1 > v2)
  	{
  		return 1;
  	}
- 	
+
 	else
  	{
  		return 0;
@@ -31,32 +31,35 @@ int calculate_result(int white_balls[5], int power_ball)
 {
  	for (int i=0; i<5; i++)
  	{
- 		...
  		return -1;
- 	}
+    }
 
- 	qsort(white_balls, 5, sizeof(int), my_sort_func);
- 	return 0;
+ // lottery ball numbers are always shown sorted
+ qsort(white_balls, 5, sizeof(int), my_sort_func);
+ return 0;
+
 }
 
 int main(int argc, char** argv)
 {
         int balls[6];
-        int count_balls = 0;
-        int favorite = 0;
-        for (int i=1; i<argc; i++)
-        {
-            const char* arg = argv[i];
-            if ('-' == arg[0])
-            {
-                if (0 == strcmp(arg, "-favorite"))
-                {
-                    favorite = 1;
-                }
-                else
-                {
-                    goto usage_error;
-                }
+    int count_balls = 0;
+    int favorite = 0; // this should be a bool
+    for (int i=1; i<argc; i++)
+    {
+        goto usage_error;
+    }
+    // the power ball is always the last one given
+    int power_ball = balls[5];
+    int result = calculate_result(balls, power_ball);
+    // calculate result can return -1 if the ball numbers
+    // are out of range
+
+    if (result < 0)
+    {
+        goto usage_error;
+
+
             }
             else
             {
@@ -68,7 +71,7 @@ int main(int argc, char** argv)
                 }
                 balls[count_balls++] = (int) val;
             }
-        }
+
         if (6 != count_balls)
         {
             goto usage_error;
