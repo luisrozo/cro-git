@@ -45,7 +45,7 @@ int main(int argc, char** argv)
 {
         int balls[6];
     int count_balls = 0;
-    bool favourite = false; // this should be a bool
+    bool favorite = false; // this should be a bool
     for (int i=1; i<argc; i++)
     {
         goto usage_error;
