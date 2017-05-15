@@ -99,3 +99,5 @@ fprintf(stderr, "Usage: %s [-favourite] (5 white balls)
 power_ball\n", argv[0]);
 return -1;
 }
+
+// quien fuese kazajo
