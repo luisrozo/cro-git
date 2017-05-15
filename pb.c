@@ -159,6 +159,18 @@ int powerball_computer_generated()
 	return rand()%39+1;
 }
 
+void checkwhiteballs(int balls[5], int control)
+{
+  int last = balls[control];
+
+  for(int i = 0; i < control; i++){
+    if(last == balls[i]){
+      balls[control] = whiteballs_computer_generated();
+      break;
+    }
+  }
+}
+
 int main(int argc, char** argv)
 {
 	int balls[6];
@@ -188,6 +200,7 @@ int main(int argc, char** argv)
         {
             for (int i = 0; i < 5; i++){
 		balls[i] = whiteballs_computer_generated();
+    checkwhiteballs(balls, i);
 	    }
 		balls[5] = powerball_computer_generated(); // Power ball
 		printf("Your numbers are: ");
