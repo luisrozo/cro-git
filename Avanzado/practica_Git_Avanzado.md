@@ -68,3 +68,7 @@ Antonio ha actualizado la rama de HappyCroissant añadiendo una función nueva l
 El alumno2, comprueba que hay muchisimas diferencias entre el fichero *pb.c* de la rama *master* y la rama *HappyCroissant*. Al realizar git merge, el programa traga y resuelve los conflictos entre ambos ficheros automaticamente. 
 
 Tras esto realiza una serie de cambios sobre el fichero *pb.c* y los sube a la rama de su equipo *Cro-Git*.
+
+El alumno1 hace pull en ambas ramas y comprueba que existen numerosas diferencias entre ambas (haciendo uso de *git diff*). Como él se ha leído el *Clean Code*, a diferencia de su compañero alumno2, decide hacer refactoring en el fichero *pb.c* y añade una función para separar el código y que quede más claro. Compila y funciona como antes (lógico haciendo *refactoring*, si no se llamaría de otra forma).
+
+Aunque después tiene varios conflictos y demás movidas para fusionar las ramas, lo consigue y hace un push de la rama master, cediendo el tesitgo al alumno4.
