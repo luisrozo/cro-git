@@ -1,0 +1,1 @@
+Este es el entorno de trabajo del equipo HappyCroissant, donde trabajan los alumnos: Juan Antonio Rodicio López y Antonio Vélez Estévez, en el que almacenarán los ficheros de la clase de prácticas de la asignatura Evolución del Software
