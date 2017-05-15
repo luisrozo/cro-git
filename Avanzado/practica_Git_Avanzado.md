@@ -30,5 +30,41 @@ Por esto, no ha sido posible realizar el *rebase*, intentaremos limitar las prem
 
 &nbsp;
 
+## 3.- Creando la rama de tu equipo (todos)
 
+&nbsp;
 
+Mis compañeros y yo hemos realizado los pulls necesarios y hemos creado las ramas pertinentes con los ficheros necesarios. No ha habido ningún intento de sabotaje de la práctica esta vez, y los entornos de trabajo de cada equipo han quedado bien definidos.
+
+&nbsp;
+
+## 4.- Trabajano con un repositorio remoto
+
+&nbsp;
+
+Luis y Antonio han realizado los siguientes comandos para hacer push sobre los repositorios remotos de las ramas:
+
+git push --set-upstream origin HappyCroissant
+git push --set-upstream origin Cro-Git
+
+&nbsp;
+
+## 5.- Clave pública SSH(todos)
+
+Las claves ssh las teníamos generadas ya que habíamos trabajado con Github anteriormente. Por otra parte hemos decidido hacer los cambios desde consola y no hemos usado Eclipse.
+
+&nbsp;
+
+## 6.- Generando números
+
+Juan ha actualizado el directorio de trabajo realizando un git pull situado sobre su rama. Seguidamente ha modificado el fichero pb.c como se le indicaba y ha comprobado que compilaba y se ejecutaba y ha realizado el commit pertinente. Después ha realizado el push de la rama de su equipo.
+
+Antonio ha actualizado la rama de HappyCroissant añadiendo una función nueva llamada checkwhiteballs() ha añadido los cambios, ha realizado el commit y ha realizado un push sobre la rama HappyCroissant.
+
+&nbsp;
+
+## 7.- Merge sin conflictos
+
+El alumno2, comprueba que hay muchisimas diferencias entre el fichero *pb.c* de la rama *master* y la rama *HappyCroissant*. Al realizar git merge, el programa traga y resuelve los conflictos entre ambos ficheros automaticamente. 
+
+Tras esto realiza una serie de cambios sobre el fichero *pb.c* y los sube a la rama de su equipo *Cro-Git*.
