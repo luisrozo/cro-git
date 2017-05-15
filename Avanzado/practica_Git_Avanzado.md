@@ -48,3 +48,17 @@ git push --set-upstream origin HappyCroissant
 git push --set-upstream origin Cro-Git
 
 &nbsp;
+
+## 5.- Clave pública SSH(todos)
+
+Las claves ssh las teníamos generadas ya que habíamos trabajado con Github anteriormente. Por otra parte hemos decidido hacer los cambios desde consola y no hemos usado Eclipse.
+
+&nbsp;
+
+## 6.- Generando números
+
+Juan ha actualizado el directorio de trabajo realizando un git pull situado sobre su rama. Seguidamente ha modificado el fichero pb.c como se le indicaba y ha comprobado que compilaba y se ejecutaba y ha realizado el commit pertinente. Después ha realizado el push de la rama de su equipo.
+
+Antonio ha actualizado la rama de HappyCroissant añadiendo una función nueva llamada checkwhiteballs() ha añadido los cambios, ha realizado el commit y ha realizado un push sobre la rama HappyCroissant.
+
+&nbsp;
