@@ -1,2 +1,7 @@
 # cro-git
-Pareja de prácticas formada por Luis Gonzaga Rozo Bueno (alumno1) y Manuel Rodríguez-Sánchez Guerra (alumno2)
+Grupo de prácticas de la asignatura de _Evolución del Software_ formado por:
+
+* Juan Antonio Rodicio López
+* Manuel Rodríguez-Sánchez Guerra
+* Luis Gonzaga Rozo Bueno
+* Antonio Vélez Estévez
