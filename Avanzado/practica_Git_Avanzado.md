@@ -30,5 +30,10 @@ Por esto, no ha sido posible realizar el *rebase*, intentaremos limitar las prem
 
 &nbsp;
 
+## 3.- Creando la rama de tu equipo (todos)
 
+&nbsp;
 
+Mis compañeros y yo hemos realizado los pulls necesarios y hemos creado las ramas pertinentes con los ficheros necesarios. No ha habido ningún intento de sabotaje de la práctica esta vez, y los entornos de trabajo de cada equipo han quedado bien definidos.
+
+&nbsp;
