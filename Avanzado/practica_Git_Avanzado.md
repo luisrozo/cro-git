@@ -24,3 +24,11 @@ El documento a subir por petición del alumno independentista *alumno1* será un
 
 &nbsp;
 
+Debido a la *pereza inteligente* del *alumno2* este, utilizando sus habilidades premonitorias decidió hacer ambos comits en el mismo, para así ahorrarse un par de instrucciones.
+
+Por esto, no ha sido posible realizar el *rebase*, intentaremos limitar las premoniciones para futuros ejercicios.
+
+&nbsp;
+
+
+
