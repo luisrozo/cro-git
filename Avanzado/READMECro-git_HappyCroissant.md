@@ -1,0 +1,1 @@
+Grupo de prácticas formado por el equipo Cro-Git: Luis Gonzalo Rozo Bueno y Manuel Rodríguez-Sánchez Guerra y por el equipo HappyCroissant: Juan Antoni Rodicio López y Antonio Velez Estevez y el becario: Temirlá  Tazibayé (es broma)
