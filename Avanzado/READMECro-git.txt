@@ -1,0 +1,1 @@
+"Este es el entorno de trabajo del equipo Cro-Git, donde trabajan los alumnos Luis Gonzaga Rozo Bueno y Manuel Rodr¡guez-S nchez Guerra, en el que almacenar n los ficheros de la clase de pr cticas de la asignatura Evoluci¢n del Software" 
