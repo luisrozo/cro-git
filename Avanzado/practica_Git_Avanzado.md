@@ -62,3 +62,9 @@ Juan ha actualizado el directorio de trabajo realizando un git pull situado sobr
 Antonio ha actualizado la rama de HappyCroissant añadiendo una función nueva llamada checkwhiteballs() ha añadido los cambios, ha realizado el commit y ha realizado un push sobre la rama HappyCroissant.
 
 &nbsp;
+
+## 7.- Merge sin conflictos
+
+El alumno2, comprueba que hay muchisimas diferencias entre el fichero *pb.c* de la rama *master* y la rama *HappyCroissant*. Al realizar git merge, el programa traga y resuelve los conflictos entre ambos ficheros automaticamente. 
+
+Tras esto realiza una serie de cambios sobre el fichero *pb.c* y los sube a la rama de su equipo *Cro-Git*.
