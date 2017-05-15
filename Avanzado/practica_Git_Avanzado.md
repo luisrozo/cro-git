@@ -72,3 +72,13 @@ Tras esto realiza una serie de cambios sobre el fichero *pb.c* y los sube a la r
 El alumno1 hace pull en ambas ramas y comprueba que existen numerosas diferencias entre ambas (haciendo uso de *git diff*). Como él se ha leído el *Clean Code*, a diferencia de su compañero alumno2, decide hacer refactoring en el fichero *pb.c* y añade una función para separar el código y que quede más claro. Compila y funciona como antes (lógico haciendo *refactoring*, si no se llamaría de otra forma).
 
 Aunque después tiene varios conflictos y demás movidas para fusionar las ramas, lo consigue y hace un push de la rama master, cediendo el tesitgo al alumno4.
+
+## 8.- Merge
+
+Antonio actualiza la rama master y comprueba que la función que había implementado no está en el fichero pb.c. Así que fusiona su rama con la master escribiendo:
+
+git merge master HappyCroissant
+
+Pero Manolo y Luis han estado editando los fichero desde windows, y por alguna extraña razón se han añadido unos caracteres ^M que han impedido que la fusión se haga correctamente. Por lo tanto Antonio ha tenido que fusionar los cambios a mano arreglandolo todo para que funcione.
+
+Luego ha usado los defines que estaban en la parte superior del fichero en las funciones que usaban los "números mágicos". Seguidamente ha hecho commit y push.
