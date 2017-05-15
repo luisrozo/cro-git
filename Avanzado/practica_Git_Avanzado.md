@@ -37,3 +37,14 @@ Por esto, no ha sido posible realizar el *rebase*, intentaremos limitar las prem
 Mis compañeros y yo hemos realizado los pulls necesarios y hemos creado las ramas pertinentes con los ficheros necesarios. No ha habido ningún intento de sabotaje de la práctica esta vez, y los entornos de trabajo de cada equipo han quedado bien definidos.
 
 &nbsp;
+
+## 4.- Trabajano con un repositorio remoto
+
+&nbsp;
+
+Luis y Antonio han realizado los siguientes comandos para hacer push sobre los repositorios remotos de las ramas:
+
+git push --set-upstream origin HappyCroissant
+git push --set-upstream origin Cro-Git
+
+&nbsp;
