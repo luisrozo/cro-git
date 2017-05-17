@@ -96,12 +96,10 @@ int main(int argc, char** argv)
 
 	// the power ball is always the last one given
 	int power_ball = balls[5];
-	lottery_numbers_simulation();
-
 	
 	lottery_numbers_simulation();
 	int result = calculate_result(balls, power_ball);
-  showing_results(balls, power_ball);
+  	showing_results(balls, power_ball);
 
 	// calculate result can return -1 if the ball numbers
 	// are out of range
