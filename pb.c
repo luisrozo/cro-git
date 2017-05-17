@@ -45,7 +45,7 @@ int calculate_result(int white_balls[5], int power_ball)
 
 int whiteballs_computer_generated()
 {
-	return rand()%MAX_WHITE_BALL+1;
+	return rand()%59+1;
 }
 
 int powerball_computer_generated()
@@ -80,11 +80,9 @@ void lottery_numbers_simulation(){
 
 	for(int i = 0; i < 6; i++){
 		printf("%d",balls[i]);
- 	for(int i = 0; i < 5; i++) {    		printf("%d ", white_balls[i]);
-
+	}
 }
 
-	printf("The power ball: %d \n", power_ball);}
 int main(int argc, char** argv)
 {
 	int balls[6];
@@ -101,6 +99,7 @@ int main(int argc, char** argv)
 	lottery_numbers_simulation();
 
 	
+	lottery_numbers_simulation();
 	int result = calculate_result(balls, power_ball);
   showing_results(balls, power_ball);
 
