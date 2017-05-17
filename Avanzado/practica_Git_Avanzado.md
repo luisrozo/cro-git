@@ -36,7 +36,7 @@ Mis compañeros y yo hemos realizado los pulls necesarios y hemos creado las ram
 
 &nbsp;
 
-## 4.- Trabajano con un repositorio remoto
+## 4.- Trabajando con un repositorio remoto
 
 &nbsp;
 
@@ -83,4 +83,14 @@ Luego ha usado los defines que estaban en la parte superior del fichero en las f
 
 ## 9.- Luis vs Juan (Conflictos)
 
-Tanto Luis como Juan han actualizado la rama de sus respectivos equipos y la rama master, tras comparar las ramas de los distintos equipos con la rama master, han procedido a implementar la función lottery_numbers_simulation() la cual simula la tirada de 5 bolas blancas y 1 power ball. El primero que acabó fué Luis y éste tras resolver un conflicto con la rama master subió su versión al repositorio, más tarde, juan al ser el más tardón tuvo que arreglárselas para manejarse con el tkdiff y arreglar los conlfictos que se le habían presentado. Por ser el último, juan decidió quedarse con su versión pero añadiéndole una funcion que tenía luis. Como dice el refrán, los últimos serán los primeros. Y por último Juan sube su versión a la rama master.
+Tanto Luis como Juan han actualizado la rama de sus respectivos equipos y la rama master, tras comparar las ramas de los distintos equipos con la rama master, han procedido a implementar la función lottery_numbers_simulation() la cual simula la tirada de 5 bolas blancas y 1 power ball. El primero que acabó fué Luis y éste tras resolver un conflicto con la rama master subió su versión al repositorio, más tarde, juan al ser el más tardón tuvo que arreglárselas para manejarse con el tkdiff y arreglar los conlfictos que se le habían presentado.
+
+Por ser el último, juan decidió quedarse con su versión pero añadiéndole una funcion que tenía luis. Como dice el refrán, los últimos serán los primeros. Y por último Juan sube su versión a la rama master.
+
+## 10.- Manolo vs Antonio
+
+En este ejercicio nos separamos, haciendo dos cosas distintas:
+
+- Por una parte Manolo se encarga de añadir y modificar el fichero *.gitignore* para excluir de este nuestro repositorio los ficheros con extensión *.o* o *.orig*.
+
+- Por otra parte Antonio realiza diversas pruebas sobre el código guardando la salida en un fichero local en su PC este queda excluido del repositorio gracias al ficher "info/exclude". Sorprendentemente el programa funciona y las salidas de las pruebas se guardan en el fichero *pruebas*.
