@@ -10,9 +10,7 @@
 
 &nbsp;
 
-Se ha creado un documento llamado "READMECro-Git_HappyCroissant.md" con el contenido *"Grupo de prрcticas formado por el equipo Cro-Git: Luis Gonzalo Rozo Bueno y Manuel Rodrьguez-Sрnchez Guerra y por el equipo HappyCroissant: Juan Antoni Rodicio Lзpez y Antonio Velez Estevez y el becario: Temirlра Tazibayж (es broma)"*
-
-Lo de las letras rusas es cosa del fantasma de *Temirlá Tazibayé* (para nada tiene que ver con los acentos y que la codificación del fichero no sea UTF-8)
+Se ha creado un documento llamado "READMECro-Git_HappyCroissant.md" con el contenido *"Grupo de prрcticas formado por el equipo Cro-Git: Luis Gonzalo Rozo Bueno y Manuel Rodrьguez-Sрnchez Guerra y por el equipo HappyCroissant: Juan Antoni Rodicio Lзpez y Antonio Velez Estevez"*
 
 &nbsp;
 
