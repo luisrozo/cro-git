@@ -108,3 +108,7 @@ Ambos actualizamos el repositorio con los nuevos cambios, una vez hecho esto se 
 Debido a que ambos alumnos tenian internet contratado con timofonica y esta se encontraba caida por el virus WannaCry, ambos alumnos convenientemente se encuentran sin internet. Así que Manolo crea el fichero pb.bundle con los cambios realizados y se lo envía a antonio por email gracias a ese internet que convenientemente no tiene (guiño guiño).
 
 Antonio recibe el fichero mal, ya que en el pb.bundle enviado por Manolo solo incluia los cambios en la rama Cro-Git y no en la rama master. Así que ha clonado con Cro-Git y subido los cambios.
+
+## 13.- Dividiendo commits
+
+Juan edita el archivo tal y como se le especifica y se dispone a ejecutar el comando *git add -i*, tras ejecutarlo y pelearse con él, consigue saber que tiene que utilizar la opción *Path* y después de utilizarla no se le da la opción de subir los commits por separado, Juan desesperado por la imposibilidad de realizar el ejercicio y después del sacrilegio buscando por internet, no encuentra la solución a su problema, así que sube un commit general indicando tal problema. Habrá que preguntarle al oráculo (Lorena) para que ésta le proporcione algo de conocimiento acerca de ćómo realizarlo.
