@@ -45,7 +45,7 @@ int calculate_result(int white_balls[5], int power_ball)
 
 int whiteballs_computer_generated()
 {
-	return rand()%MAX_WHITE_BALL+1;
+	return rand()%59+1;
 }
 
 int powerball_computer_generated()
@@ -53,21 +53,56 @@ int powerball_computer_generated()
 	return rand()%MAX_POWER_BALL+1;
 }
 
-void checkwhiteballs(int balls[5], int control)
+void lottery_numbers_simulation()
 {
-  int last = balls[control];
+	int balls[6];
+	int repetidos;
 
-  for(int i = 0; i < control; i++){
-    if(last == balls[i]){
-      balls[control] = whiteballs_computer_generated();
-      break;
-    }
-  }
-}
-void showing_results(int white_balls[5], int power_ball){ 
-	printf("Your sorted numbers: \n"); 	for(int i = 0; i < 5; i++) {    		printf("%d ", white_balls[i]);
+	for(int i = 0; i < 6; i++)
+	{
+		if(i < 5)
+		{
+			int no_colocada = 1;
+			while(no_colocada == 1)
+			{
+				no_colocada = 1;
+				repetidos = 0;
+				int ball = whiteballs_computer_generated();
+				int j = 0;
+			
+				while(j < i)
+				{
+					if(ball == balls[j])
+					{
+						repetidos = 1;
+					}
+					j++;
+				}
+
+				if(repetidos == 0)
+				{
+					balls[i] = ball;
+					no_colocada = 0;
+				}
+				else
+				{
+					no_colocada = 1;
+				}
+			}
+		}
+		else
+		{
+			balls[i] = powerball_computer_generated();
+		}
 	}
-	printf("The power ball: %d \n", power_ball);}
+
+	// Mostrar bolas por pantalla
+	for(int i = 0; i < 6; i++)
+	{
+		printf(“%d, “,balls[i]);
+	}
+}
+
 int main(int argc, char** argv)
 {
 	int balls[6];
@@ -82,6 +117,7 @@ int main(int argc, char** argv)
 	// the power ball is always the last one given
 	int power_ball = balls[5];
 	
+	lottery_numbers_simulation();
 	int result = calculate_result(balls, power_ball);
   showing_results(balls, power_ball);
 
