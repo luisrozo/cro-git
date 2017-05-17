@@ -26,7 +26,7 @@ static int my_sort_func(const void* p1, const void* p2)
     }
 }
 
-int calculate_result(int lott[6])
+float calculate_result(int lott[6])
 {
   for (int i=0; i<6; i++)
     {
@@ -40,7 +40,28 @@ int calculate_result(int lott[6])
   qsort(lott, 5, sizeof(int), my_sort_func);
   // Here should be typed a function to calculate the probability
 
-  return 0;
+                        float result = 0.0f;
+
+  
+	for(int i = 0; i < 5; ++i)
+    {
+      
+		if(white_balls[i] == lott[i])
+        
+			result += 0.2f;
+    
+	}	
+	
+  
+
+	if(power_ball == lott[5])
+    
+		result += 0.1f;
+
+  
+
+return result;
+
 }
 
 int whiteballs_computer_generated()
@@ -96,7 +117,7 @@ int main(int argc, char** argv)
 
 	printf("\n--- The lottery numbers ---\n");
 	lottery_numbers_simulation(lott);
-	int result = calculate_result(lott);
+	float result = calculate_result(lott);
   	showing_results(balls, power_ball);
 
 	// calculate result can return -1 if the ball numbers
@@ -134,7 +155,7 @@ int main(int argc, char** argv)
 		result = result * 2;
 	}
 
-	printf("%d percent chance of winning\n", result);
+	printf("%f percent chance of winning\n", result);
 
 	return 0;
 
