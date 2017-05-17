@@ -26,18 +26,18 @@ static int my_sort_func(const void* p1, const void* p2)
     }
 }
 
-int calculate_result(int white_balls[5], int power_ball)
+int calculate_result(int lott[6])
 {
-  for (int i=0; i<5; i++)
+  for (int i=0; i<6; i++)
     {
-      if ((white_balls[i] < 1) || (white_balls[i] > MAX_WHITE_BALL))
+      if ((lott[i] < 1) || (lott[i] > MAX_WHITE_BALL))
 	{
 	  return -1;
 	}
     }
 
   // lottery ball numbers are always shown sorted
-  qsort(white_balls, 5, sizeof(int), my_sort_func);
+  qsort(lott, 5, sizeof(int), my_sort_func);
   // Here should be typed a function to calculate the probability
 
   return 0;
@@ -65,40 +65,38 @@ void checkwhiteballs(int balls[5], int control)
   }
 }
 
-void lottery_numbers_simulation(){
+void lottery_numbers_simulation(int lott[6]){
 	
-	int balls[6];
 
 	for(int i = 0; i < 6; i++){
 
 		if(i < 5){
-			balls[i] = whiteballs_computer_generated();
-			checkwhiteballs(balls, i);
+			lott[i] = whiteballs_computer_generated();
+			checkwhiteballs(lott, i);
 		}else
-			balls[i] = powerball_computer_generated();
+			lott[i] = powerball_computer_generated();
 	}
 
 	for(int i = 0; i < 6; i++){
-		printf("%d",balls[i]);
+		printf("%d",lott[i]);
 	}
 }
 
 int main(int argc, char** argv)
 {
 	int balls[6];
+ 	int lott[6];
 	int count_balls = 0;
-  int favorite = 0; //this should be a bool
+  	int favorite = 0; //this should be a bool
 
 	for (int i=1; i <argc; i++)
 	{
 		goto usage_error;
 	}
 
-	// the power ball is always the last one given
-	int power_ball = balls[5];
-	
-	lottery_numbers_simulation();
-	int result = calculate_result(balls, power_ball);
+	printf("\n--- The lottery numbers ---\n");
+	lottery_numbers_simulation(lott);
+	int result = calculate_result(lott);
   	showing_results(balls, power_ball);
 
 	// calculate result can return -1 if the ball numbers
