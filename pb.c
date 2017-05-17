@@ -42,7 +42,7 @@ float calculate_result(int white_balls[5], int power_ball, int lott[6])
 
   float result = 0.0f;
 
-	//Percent white balls
+	//Percent white ball
   for(int i = 0; i < 5; ++i)
     {
       if(white_balls[i] == lott[i])
@@ -111,10 +111,10 @@ int main(int argc, char** argv)
 	// the power ball is always the last one given
 	int power_ball = balls[5];
 
-	// Head for the lottery numbers
+	// Head for the lottery number
   printf("\n--- The lottery numbers ---\n");
 	lottery_numbers_simulation(lott);
-	// Head for my numbers
+	// Head for my number
 	printf("\n--- Your lottery numbers ---\n")
 	float result = calculate_result(balls, power_ball);
   showing_results(balls, power_ball);
