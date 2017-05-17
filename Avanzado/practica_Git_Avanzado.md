@@ -100,3 +100,11 @@ En este ejercicio nos separamos, haciendo dos cosas distintas:
 Luis (Alumno 1) actualiza su rama de equipo y la compartida y modifica el fichero pb.c tal y como se le indica, comprueba que compila y se ejecuta y sube los cambios al repositorio.
 
 Juan por otro lado, realiza un *git fetch* en la rama master, comprueba las diferencias y fusiona los cambios. Además ha sentido gran curiosidad por lo que estaba haciendo el otro equipo, con lo cual ha creado una rama localmente con el mismo nombre para luego descargarse en ella la última revisión y por último fusionar ésta con la rama master.
+
+## 12.- Manolo vs Antonio (el regreso)
+
+Ambos actualizamos el repositorio con los nuevos cambios, una vez hecho esto se realizarán todos los cambios indicados sobre el código. Se modifican las funciones pertinentes.
+
+Debido a que ambos alumnos tenian internet contratado con timofonica y esta se encontraba caida por el virus WannaCry, ambos alumnos convenientemente se encuentran sin internet. Así que Manolo crea el fichero pb.bundle con los cambios realizados y se lo envía a antonio por email gracias a ese internet que convenientemente no tiene (guiño guiño).
+
+Antonio recibe el fichero mal, ya que en el pb.bundle enviado por Manolo solo incluia los cambios en la rama Cro-Git y no en la rama master. Así que ha clonado con Cro-Git y subido los cambios.
