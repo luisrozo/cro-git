@@ -26,7 +26,7 @@ static int my_sort_func(const void* p1, const void* p2)
     }
 }
 
-int calculate_result(int white_balls[6])
+int calculate_result(int white_balls[5], int power_ball, int lott[6])
 {
   for (int i=0; i<5; i++)
     {
@@ -39,6 +39,7 @@ int calculate_result(int white_balls[6])
   // lottery ball numbers are always shown sorted
   qsort(white_balls, 5, sizeof(int), my_sort_func);
   // Here should be typed a function to calculate the probability
+
 
   return 0;
 }
