@@ -80,3 +80,7 @@ git merge master HappyCroissant
 Pero Manolo y Luis han estado editando los fichero desde windows, y por alguna extraña razón se han añadido unos caracteres ^M que han impedido que la fusión se haga correctamente. Por lo tanto Antonio ha tenido que fusionar los cambios a mano arreglandolo todo para que funcione.
 
 Luego ha usado los defines que estaban en la parte superior del fichero en las funciones que usaban los "números mágicos". Seguidamente ha hecho commit y push.
+
+## 9.- Luis vs Juan (Conflictos)
+
+Tanto Luis como Juan han actualizado la rama de sus respectivos equipos y la rama master, tras comparar las ramas de los distintos equipos con la rama master, han procedido a implementar la función lottery_numbers_simulation() la cual simula la tirada de 5 bolas blancas y 1 power ball. El primero que acabó fué Luis y éste tras resolver un conflicto con la rama master subió su versión al repositorio, más tarde, juan al ser el más tardón tuvo que arreglárselas para manejarse con el tkdiff y arreglar los conlfictos que se le habían presentado. Por ser el último, juan decidió quedarse con su versión pero añadiéndole una funcion que tenía luis. Como dice el refrán, los últimos serán los primeros. Y por último Juan sube su versión a la rama master.
