@@ -112,3 +112,13 @@ Antonio recibe el fichero mal, ya que en el pb.bundle enviado por Manolo solo in
 ## 13.- Dividiendo commits
 
 Juan edita el archivo tal y como se le especifica y se dispone a ejecutar el comando *git add -i*, tras ejecutarlo y pelearse con él, consigue saber que tiene que utilizar la opción *Path* y después de utilizarla no se le da la opción de subir los commits por separado, Juan desesperado por la imposibilidad de realizar el ejercicio y después del sacrilegio buscando por internet, no encuentra la solución a su problema, así que sube un commit general indicando tal problema. Habrá que preguntarle al oráculo (Lorena) para que ésta le proporcione algo de conocimiento acerca de ćómo realizarlo.
+
+## 14.- Rebase manejo de ramas
+
+Lo primero ha sido ver el progreso de las ramas utilizando **gitk** adjuntamos capturas a continuación:
+#### master
+![](http://i67.tinypic.com/15gvz49.png)
+#### Cro-Git
+![](http://i64.tinypic.com/mm757r.png)
+#### HappyCroissant
+![](http://i67.tinypic.com/3134to7.png)
