@@ -94,3 +94,9 @@ En este ejercicio nos separamos, haciendo dos cosas distintas:
 - Por una parte Manolo se encarga de añadir y modificar el fichero *.gitignore* para excluir de este nuestro repositorio los ficheros con extensión *.o* o *.orig*.
 
 - Por otra parte Antonio realiza diversas pruebas sobre el código guardando la salida en un fichero local en su PC este queda excluido del repositorio gracias al ficher "info/exclude". Sorprendentemente el programa funciona y las salidas de las pruebas se guardan en el fichero *pruebas*.
+
+## 11.- Fetch + merge
+
+Luis (Alumno 1) actualiza su rama de equipo y la compartida y modifica el fichero pb.c tal y como se le indica, comprueba que compila y se ejecuta y sube los cambios al repositorio.
+
+Juan por otro lado, realiza un *git fetch* en la rama master, comprueba las diferencias y fusiona los cambios. Además ha sentido gran curiosidad por lo que estaba haciendo el otro equipo, con lo cual ha creado una rama localmente con el mismo nombre para luego descargarse en ella la última revisión y por último fusionar ésta con la rama master.
