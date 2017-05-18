@@ -117,8 +117,5 @@ Juan edita el archivo tal y como se le especifica y se dispone a ejecutar el com
 
 Lo primero ha sido ver el progreso de las ramas utilizando **gitk** adjuntamos capturas a continuación:
 #### master
-![](http://i67.tinypic.com/15gvz49.png)
-#### Cro-Git
-![](http://i64.tinypic.com/mm757r.png)
-#### HappyCroissant
-![](http://i67.tinypic.com/3134to7.png)
+![](http://i68.tinypic.com/fwi0yt.png)
+
