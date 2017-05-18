@@ -115,7 +115,7 @@ Juan edita el archivo tal y como se le especifica y se dispone a ejecutar el com
 
 ## 14.- Rebase manejo de ramas
 
-Lo primero ha sido ver el progreso de las ramas utilizando **gitk** adjuntamos capturas a continuación:
+Lo primero ha sido utilizar el comando **git rebase** para unir los commits en la rama compartida y así poder ver el progreso de las ramas utilizando **gitk**. Adjuntamos captura a continuación:
 #### master
 ![](http://i68.tinypic.com/fwi0yt.png)
 
