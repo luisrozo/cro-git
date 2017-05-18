@@ -1,20 +1,28 @@
-# Práctica Git - Avanzao
+# Práctica Git - Avanzado
 
 ##### Luis Gonzaga Rozo Bueno (*alumno1*) & Manuel Rodríguez-Sánchez Guerra (*alumno2*) & Juan Antonio Rodicio López (alumno3) & Antonio Velez Estevez (alumno4)
 
 &nbsp;
 
+***
+## In memoriam
+
+Normalmente, nos tomamos las prácticas en un tono de humor. En esta ocasión, como puede comprobarse, no ha sido así. Esto es debido a la triste noticia del fallecimiento de *Tim*.
+Una noticia sin lugar a dudas inesperada, aunque este hecho no sea notable solo queremos dejar un leve recuerdo a nuestro compañero y a su familia. No te conocíamos mucho, pero, 
+
+**un saludo amigo**.
+***
 
 
 ## 1.- Preparación del entorno (alumno2) 
 
 &nbsp;
 
-Se ha creado un documento llamado "READMECro-Git_HappyCroissant.md" con el contenido *"Grupo de prрcticas formado por el equipo Cro-Git: Luis Gonzalo Rozo Bueno y Manuel Rodrьguez-Sрnchez Guerra y por el equipo HappyCroissant: Juan Antoni Rodicio Lзpez y Antonio Velez Estevez"*
+Se ha creado un documento llamado "READMECro-Git_HappyCroissant.md" con el contenido *"Grupo de prácticas formado por el equipo Cro-Git: Luis Gonzaga Rozo Bueno y Manuel Rodríguez-Sánchez Guerra y por el equipo HappyCroissant: Juan Antonio Rodicio López y Antonio Vélez Estévez"*
 
 &nbsp;
 
-El documento a subir por petición del alumno independentista *alumno1* será un **.md** en lugar del **.tex** que solicita el enunciado.
+El documento a subir por petición del *alumno1* será un **.md** en lugar del **.tex** que solicita el enunciado.
 
 &nbsp;
 
@@ -24,7 +32,7 @@ El documento a subir por petición del alumno independentista *alumno1* será un
 
 Debido a la *pereza inteligente* del *alumno2* este, utilizando sus habilidades premonitorias decidió hacer ambos comits en el mismo, para así ahorrarse un par de instrucciones.
 
-Por esto, no ha sido posible realizar el *rebase*, intentaremos limitar las premoniciones para futuros ejercicios.
+Por esto, no ha sido posible realizar el *rebase*.
 
 &nbsp;
 
@@ -67,9 +75,9 @@ El alumno2, comprueba que hay muchisimas diferencias entre el fichero *pb.c* de 
 
 Tras esto realiza una serie de cambios sobre el fichero *pb.c* y los sube a la rama de su equipo *Cro-Git*.
 
-El alumno1 hace pull en ambas ramas y comprueba que existen numerosas diferencias entre ambas (haciendo uso de *git diff*). Como él se ha leído el *Clean Code*, a diferencia de su compañero alumno2, decide hacer refactoring en el fichero *pb.c* y añade una función para separar el código y que quede más claro. Compila y funciona como antes (lógico haciendo *refactoring*, si no se llamaría de otra forma).
+El alumno1 hace pull en ambas ramas y comprueba que existen numerosas diferencias entre ambas (haciendo uso de *git diff*). Decide hacer refactoring en el fichero *pb.c* y añade una función para separar el código y que quede más claro. Compila y funciona como antes.
 
-Aunque después tiene varios conflictos y demás movidas para fusionar las ramas, lo consigue y hace un push de la rama master, cediendo el tesitgo al alumno4.
+Aunque después tiene varios conflictos para fusionar las ramas, lo consigue y hace un push de la rama master, cediendo el tesitgo al alumno4.
 
 ## 8.- Merge
 
@@ -83,9 +91,9 @@ Luego ha usado los defines que estaban en la parte superior del fichero en las f
 
 ## 9.- Luis vs Juan (Conflictos)
 
-Tanto Luis como Juan han actualizado la rama de sus respectivos equipos y la rama master, tras comparar las ramas de los distintos equipos con la rama master, han procedido a implementar la función lottery_numbers_simulation() la cual simula la tirada de 5 bolas blancas y 1 power ball. El primero que acabó fué Luis y éste tras resolver un conflicto con la rama master subió su versión al repositorio, más tarde, juan al ser el más tardón tuvo que arreglárselas para manejarse con el tkdiff y arreglar los conlfictos que se le habían presentado.
+Tanto Luis como Juan han actualizado la rama de sus respectivos equipos y la rama master, tras comparar las ramas de los distintos equipos con la rama master, han procedido a implementar la función lottery_numbers_simulation() la cual simula la tirada de 5 bolas blancas y 1 power ball. El primero que acabó fué Luis y éste tras resolver un conflicto con la rama master subió su versión al repositorio, más tarde, juan tuvo que arreglárselas para manejarse con el tkdiff y arreglar los conlfictos que se le habían presentado.
 
-Por ser el último, juan decidió quedarse con su versión pero añadiéndole una funcion que tenía luis. Como dice el refrán, los últimos serán los primeros. Y por último Juan sube su versión a la rama master.
+Por ser el último, juan decidió quedarse con su versión pero añadiéndole una funcion que tenía luis. Y por último Juan sube su versión a la rama master.
 
 ## 10.- Manolo vs Antonio
 
@@ -101,17 +109,17 @@ Luis (Alumno 1) actualiza su rama de equipo y la compartida y modifica el ficher
 
 Juan por otro lado, realiza un *git fetch* en la rama master, comprueba las diferencias y fusiona los cambios. Además ha sentido gran curiosidad por lo que estaba haciendo el otro equipo, con lo cual ha creado una rama localmente con el mismo nombre para luego descargarse en ella la última revisión y por último fusionar ésta con la rama master.
 
-## 12.- Manolo vs Antonio (el regreso)
+## 12.- Manolo vs Antonio
 
 Ambos actualizamos el repositorio con los nuevos cambios, una vez hecho esto se realizarán todos los cambios indicados sobre el código. Se modifican las funciones pertinentes.
 
-Debido a que ambos alumnos tenian internet contratado con timofonica y esta se encontraba caida por el virus WannaCry, ambos alumnos convenientemente se encuentran sin internet. Así que Manolo crea el fichero pb.bundle con los cambios realizados y se lo envía a antonio por email gracias a ese internet que convenientemente no tiene (guiño guiño).
+Manolo crea el fichero pb.bundle con los cambios realizados y se lo envía a antonio por email.
 
 Antonio recibe el fichero mal, ya que en el pb.bundle enviado por Manolo solo incluia los cambios en la rama Cro-Git y no en la rama master. Así que ha clonado con Cro-Git y subido los cambios.
 
 ## 13.- Dividiendo commits
 
-Juan edita el archivo tal y como se le especifica y se dispone a ejecutar el comando *git add -i*, tras ejecutarlo y pelearse con él, consigue saber que tiene que utilizar la opción *Path* y después de utilizarla no se le da la opción de subir los commits por separado, Juan desesperado por la imposibilidad de realizar el ejercicio y después del sacrilegio buscando por internet, no encuentra la solución a su problema, así que sube un commit general indicando tal problema. Habrá que preguntarle al oráculo (Lorena) para que ésta le proporcione algo de conocimiento acerca de ćómo realizarlo.
+Juan edita el archivo tal y como se le especifica y se dispone a ejecutar el comando *git add -i*, tras ejecutarlo y pelearse con él, consigue saber que tiene que utilizar la opción *Path* y después de utilizarla no se le da la opción de subir los commits por separado, Juan desesperado por la imposibilidad de realizar el ejercicio y después de buscarlo por internet, no encuentra la solución a su problema, así que sube un commit general indicando tal problema. 
 
 ## 14.- Rebase manejo de ramas
 
@@ -119,7 +127,7 @@ Lo primero ha sido utilizar el comando **git rebase** para unir los commits en l
 #### master
 ![](http://i68.tinypic.com/fwi0yt.png)
 
-## 15.- Quien ha hesho eso?
+## 15.- ¿Quien ha hecho eso?
 
 Para ver que cambios ha hecho cada uno utilizaremos el comando **git blame pb.c**, a continuación adjuntamos una captura del resultado:
 #### git blame pb.c
