@@ -119,3 +119,8 @@ Lo primero ha sido utilizar el comando **git rebase** para unir los commits en l
 #### master
 ![](http://i68.tinypic.com/fwi0yt.png)
 
+## 15.- Quien ha hesho eso?
+
+Para ver que cambios ha hecho cada uno utilizaremos el comando **git blame pb.c**, a continuación adjuntamos una captura del resultado:
+#### git blame pb.c
+![](http://i67.tinypic.com/2mg9gy9.png)
